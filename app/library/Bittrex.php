@@ -9,6 +9,7 @@ declare(strict_types=1);
 
 namespace App\library;
 
+use BrianFaust\Http\Http;
 
 class Bittrex
 {
