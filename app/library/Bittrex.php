@@ -273,4 +273,9 @@ class Bittrex
             ->post($uri, array_filter($arguments))
             ->json();
     }
+
+    public function getTicks($marketName, $tickInterval = 'oneMin')
+    {
+        //https://bittrex.com/Api/v2.0/pub/market/GetTicks?marketName=BTC-ADA&tickInterval=oneMin
+    }
 }

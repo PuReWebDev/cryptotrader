@@ -21,7 +21,10 @@ class CreateMarketsTable extends Migration
             $table->string('BaseCurrencyLong');
             $table->string('MinTradeSize');
             $table->string('MarketName');
+            $table->string('Notice')->nullable();
+            $table->string('IsSponsored')->nullable();
             $table->boolean('IsActive');
+            $table->string('LogoUrl')->nullable();
             $table->string('Created');
             $table->timestamps();
         });
