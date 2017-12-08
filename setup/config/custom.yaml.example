@@ -1,0 +1,6 @@
+name: 'Mr. Portrait Vagrant 1'
+ip: '10.0.0.101'
+folder: '/var/www/mrportrait'
+ssh-username: 'mrportrait'
+user: 'your-username'
+password: 'your-pabst-password'
