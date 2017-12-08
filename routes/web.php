@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('order-history', 'OrderHistoryController');
+Route::resource('markets', 'MarketsController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
