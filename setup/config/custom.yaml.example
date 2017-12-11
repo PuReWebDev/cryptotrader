@@ -1,0 +1,8 @@
+vagrant_name: 'App Name'
+vagrant_ip: '10.0.0.112'
+vagrant_port: 4012
+app_name: 'cryptotrader'
+folder: '/var/www/cryptotrader'
+ssh_username: 'yourusername'
+db_user: 'dev'
+db_password: '1234'
